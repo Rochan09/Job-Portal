@@ -1,54 +1,60 @@
-# Job Portal App with MERN Stack
+# 🧑‍💼 Job Portal App – MERN Stack
 
-A comprehensive job portal application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This application allows users to browse job listings, apply for jobs, and manage their applications seamlessly.
+A fully functional **Job Portal Application** built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js). The platform empowers **job seekers** to find and apply for jobs, while allowing **employers** to post and manage job listings efficiently.
 
-## Features
+---
 
-- **User Authentication:** Secure authentication using JWT (JSON Web Tokens) for both job seekers and employers.
-- **Job Listings:** Browse through a wide range of job listings fetched from MongoDB.
-- **Application Management:** Job seekers can manage their job applications, and employers can view and manage received applications.
-- **Responsive Design:** Ensures a seamless experience across all devices.
+## 🚀 Features
 
-## Technologies Used
+- 🔐 **User Authentication** – Secure login/signup for both job seekers and employers using JWT.
+- 📄 **Job Listings** – Dynamic job board powered by MongoDB.
+- 📂 **Application Management** – Job seekers can track applications; employers can review candidates.
+- 📱 **Responsive UI** – Optimized for all devices using React and Bootstrap.
+- ☁️ **Image Uploads** – Integrated with Cloudinary for managing profile and job images.
 
-- **Frontend:** React.js, React Router, Bootstrap
-- **Backend:** Node.js, Express.js, MongoDB
-- **Authentication:** JWT (JSON Web Tokens), Bcrypt (for password hash)
-- **Image Upload:** Cloudinary for storing and managing uploaded images
-- **Deployment:** Vercel (frontend), Render(backend), MongoDB Atlas (database)
+---
 
-## Getting Started
+## 🛠️ Tech Stack
 
-To get a local copy up and running follow these simple steps.
+- **Frontend:** React.js, React Router, Bootstrap  
+- **Backend:** Node.js, Express.js, MongoDB  
+- **Authentication:** JWT, Bcrypt  
+- **Image Hosting:** Cloudinary  
+- **Deployment:**  
+  - Frontend: Vercel  
+  - Backend: Render  
+  - Database: MongoDB Atlas
 
-### Prerequisites
+---
 
-- Node.js installed on your machine with latest version or v22.2.0 above
-- MongoDB Atlas account (or local MongoDB server)
-- Cloudinary account for image storage
+## ⚙️ Getting Started
 
-### Installation
+Follow these steps to run the project locally.
 
-1. Clone the repo:
-   ```sh
-   git clone https://github.com/exclusiveabhi/react-job-portal.git
+### ✅ Prerequisites
+
+- Node.js (v22.2.0 or above)
+- MongoDB Atlas account (or local MongoDB instance)
+- Cloudinary account (for image storage)
+
+### 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Rochan09/Job-Portal.git
    ```
-2. Install NPM packages:
 
-   ```sh
-   cd react-job-portal
+2. **Install dependencies**
+   ```bash
+   cd Job-Portal
    cd backend
    npm install
-   cd..
-   cd frontend
+   cd ../frontend
    npm install
    ```
 
-3. ## If you don't want to change the`.env` credentials skip step 4 and move to step 5.
-
-4. Set up environment variables:
-
-   - Create a `config.env` file after creating a `config folder` in the backend directory, containing the following variables:
+3. ### 📝 Configure Environment Variables (Optional)
+   If you want to use your own configuration, create a `config.env` file inside a new `config` folder in the `/backend` directory:
 
    ```env
    PORT=
@@ -62,28 +68,18 @@ To get a local copy up and running follow these simple steps.
    COOKIE_EXPIRE=
    ```
 
-   Replace each value with your specific configuration details.
-
-5. Run the application backend (make sure you are in `/backend` directory) :
-
-   ```sh
+4. **Start the backend**
+   ```bash
+   cd backend
    node server.js
    ```
 
-6. Run the application frontend (make sure you are in `/frontend` directory) :
-   ```sh
+5. **Start the frontend**
+   ```bash
+   cd ../frontend
    npm run dev
    ```
-7. Open your browser and navigate to `http://localhost:5173` to view the app.
 
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request (`we will merge within 24 hour`)
-
-
+6. **Visit the app**  
+   Open your browser and go to:  
+   [`http://localhost:5173`](http://localhost:5173)
