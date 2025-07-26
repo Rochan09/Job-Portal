@@ -30,6 +30,14 @@ app.use(
     tempFileDir: "/tmp/",
   })
 );
+// Health check endpoint
+app.get("/", (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: "Job Portal API is running successfully!",
+  });
+});
+
 app.use("/api/v1/user", userRouter);
 app.use("/api/v1/job", jobRouter);
 app.use("/api/v1/application", applicationRouter);
