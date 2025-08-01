@@ -47,18 +47,12 @@ A fully functional **Job Portal Application** built with the **MERN stack** (Mon
 - **VIEW YOUR JOBS** – List and manage jobs posted by the employer  
   ![View Your Jobs](./screenshots/view-your-jobs.png)
 
-- **Employer Navigation Bar** – Displays all employer-specific nav options  
-  ![Employer Nav](./screenshots/employer-nav.png)
-
 ---
 
 ### 👨‍🎓 Job Seeker-Only
 
 - **MY APPLICATIONS** – Track the jobs the user has applied to  
   ![My Applications](./screenshots/my-applications.png)
-
-- **Job Seeker Navigation Bar** – Displays job seeker-specific nav options  
-  ![Job Seeker Nav](./screenshots/jobseeker-nav.png)
 
 ---
 
