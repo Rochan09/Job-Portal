@@ -29,30 +29,30 @@ A fully functional **Job Portal Application** built with the **MERN stack** (Mon
 ### 🌐 Common to Both (Employer & Job Seeker)
 
 - **HOME** – Redirects to the homepage with overview  
-  ![Home Page](./screenshots/home.png)
+  ![Home Page](./frontend/public/screenshots/home.png)
 
 - **ALL JOBS** – Displays all active job listings  
-  ![All Jobs Page](./screenshots/all-jobs.png)
+  ![All Jobs Page](./frontend/public/screenshots/all-jobs.png)
 
 ---
 
 ### 🧑‍💼 Employer-Only
 
 - **APPLICANT'S APPLICATIONS** – View applications received for posted jobs  
-  ![Applicant's Applications](./screenshots/applicants-applications.png)
+  ![Applicant's Applications](./frontend/public/screenshots/applicants-applications.png)
 
 - **POST NEW JOB** – Publish new job openings  
-  ![Post Job Page](./screenshots/post-new-job.png)
+  ![Post Job Page](./frontend/public/screenshots/post-new-job.png)
 
 - **VIEW YOUR JOBS** – List and manage jobs posted by the employer  
-  ![View Your Jobs](./screenshots/view-your-jobs.png)
+  ![View Your Jobs](./frontend/public/screenshots/view-your-jobs.png)
 
 ---
 
 ### 👨‍🎓 Job Seeker-Only
 
 - **MY APPLICATIONS** – Track the jobs the user has applied to  
-  ![My Applications](./screenshots/my-applications.png)
+  ![My Applications](./frontend/public/screenshots/my-applications.png)
 
 ---
 
