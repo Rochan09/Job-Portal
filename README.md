@@ -26,6 +26,41 @@ A fully functional **Job Portal Application** built with the **MERN stack** (Mon
   - Database: MongoDB Atlas
 
 ---
+### 🌐 Common to Both (Employer & Job Seeker)
+
+- **HOME** – Redirects to the homepage with overview  
+  ![Home Page](./screenshots/home.png)
+
+- **ALL JOBS** – Displays all active job listings  
+  ![All Jobs Page](./screenshots/all-jobs.png)
+
+---
+
+### 🧑‍💼 Employer-Only
+
+- **APPLICANT'S APPLICATIONS** – View applications received for posted jobs  
+  ![Applicant's Applications](./screenshots/applicants-applications.png)
+
+- **POST NEW JOB** – Publish new job openings  
+  ![Post Job Page](./screenshots/post-new-job.png)
+
+- **VIEW YOUR JOBS** – List and manage jobs posted by the employer  
+  ![View Your Jobs](./screenshots/view-your-jobs.png)
+
+- **Employer Navigation Bar** – Displays all employer-specific nav options  
+  ![Employer Nav](./screenshots/employer-nav.png)
+
+---
+
+### 👨‍🎓 Job Seeker-Only
+
+- **MY APPLICATIONS** – Track the jobs the user has applied to  
+  ![My Applications](./screenshots/my-applications.png)
+
+- **Job Seeker Navigation Bar** – Displays job seeker-specific nav options  
+  ![Job Seeker Nav](./screenshots/jobseeker-nav.png)
+
+---
 
 ## ⚙️ Getting Started
 
